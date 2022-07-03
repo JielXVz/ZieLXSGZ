@@ -27,7 +27,7 @@ times = int(input("\033[93m =====> \033[91m[×] Times : "))
 threads = int(input("\033[93m =====> \033[91m[=] Threads : "))
 
 def kontol():
-	data = random._urandom(20000)
+	data = random._urandom(17)
 	i = random.choice(("[$]","[!]","[•]"))
 	while True:
 		try:
@@ -41,7 +41,7 @@ def kontol():
 			
 
 def kontol2():
-	data = random._urandom(696969)
+	data = random._urandom(1030)
 	i = random.choice(("[+]","[!]","[•]"))
 	while True:
 		try:
